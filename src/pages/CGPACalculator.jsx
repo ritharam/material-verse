@@ -138,8 +138,8 @@ function CGPACalculator() {
   return (
     <div className='bg-[#f5f5f5]'>
       <Navbar/>
-      <div className="flex justify-center items-center">
-        <div className="bg-white border-1 m-44 p-8 max-w-1/2 rounded-lg shadow-lg">
+      <div className="flex flex-nowrap justify-center items-center">
+        <div className="bg-white border-1 my-44 md:mx-44 mx-10 p-8 max-w-1/2 rounded-lg shadow-lg">
         <div className="font-[FontSpring] text-2xl font-semibold text-center">CGPA Calculator</div>
           <div className="font-[FontSpring] text-base font-normal p-4 ">Calculate your CGPA based on SGPA and credits.</div>
           <div className="border-t-[1px] border-black my-2"></div>
@@ -148,7 +148,7 @@ function CGPACalculator() {
           onClick={handleAddClick}>Add Semester</button>
           {semesters.map((semester, i) => {
           return (
-        <div className="flex flex-wrap justify-between my-4 mx-2" key={i}>
+        <div className="flex flex-nowrap justify-between my-4 mx-2" key={i}>
           <div className="font-[FontSpring] text-base font-normal my-2"> 
             <label>Semester {i + 1}</label>
           </div>
