@@ -38,7 +38,7 @@ function MaterialForm() {
     <div className='bg-[#f5f5f5]'>
     <Navbar/>
     <div className="flex justify-center items-center">
-      <div className="bg-white border-1 m-44 p-8 rounded-lg shadow-lg">
+      <div className="bg-white border-1 my-44 md:mx-44 mx-10 p-8 rounded-lg shadow-lg">
         <div className="font-[FontSpring] text-3xl font-semibold text-center">Contribute</div>
         <div className="font-[FontSpring] text-base font-normal p-4 ">Contribute to Unitastic by adding any 
         missing materials, previous<br></br> question papers, textbooks or presentations.</div>
