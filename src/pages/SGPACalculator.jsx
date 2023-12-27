@@ -124,8 +124,8 @@ function SGPACalculator() {
       <Navbar/>
       <div className="flex justify-center items-center">
         <div className="bg-white border-1 m-44 p-8 max-w-1/2 rounded-lg shadow-lg">
-        <div className="font-[FontSpring] text-2xl font-semibold text-center">CGPA Calculator</div>
-          <div className="font-[FontSpring] text-base font-normal p-4 ">Calculate your CGPA based on SGPA and credits.</div>
+        <div className="font-[FontSpring] text-2xl font-semibold text-center">SGPA Calculator</div>
+          <div className="font-[FontSpring] text-base font-normal p-4 ">Calculate your SGPA based on credits and expected grade.</div>
           <div className="border-t-[1px] border-black my-2"></div>
           <button type='button'
           className="rounded-full  my-2 bg-[#05acb4] ont-light leading-[35.6px] text-[16px] font-['FontSpring'] text-[#f0f4f4] px-4 py-[2px] font-semibold"
