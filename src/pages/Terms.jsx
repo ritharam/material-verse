@@ -6,11 +6,11 @@ function Terms() {
   return (
     <div>
         <Navbar/>
-        <div className="p-16 bg-[#f5f5f5]">
+        <div className="md:p-28 py-28 px-8 bg-[#f5f5f5]">
             <div className="font-[IntroScript] text-4xl font-extrabold text-[#05acb4] text-center">
             Terms and Conditions
             </div>
-            <div className="font-[FontSpring] px-[150px] py-10 font-normal">
+            <div className="font-[FontSpring] md:px-[100px] py-10 font-normal">
                 <p>Last Updated: Sep 4th, 2023</p>
                 <h3 className="text-2xl font-bold text-[#202222] py-2">1. Acceptance of Terms</h3>
                 <p>By using the Website, you acknowledge that you have read, understood, and agreed to these 
