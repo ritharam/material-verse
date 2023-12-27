@@ -21,7 +21,7 @@ function ReqSgpa() {
     <Navbar/>
       <div className="bg-[#f5f5f5]">
         <div className="flex justify-center items-center">
-          <div className="bg-white border-1 mx-96 my-44 w-full p-8 rounded-lg shadow-lg">
+          <div className="bg-white border-1 mx-96 my-44 md:mx-44 mx-10 w-full p-8 rounded-lg shadow-lg">
           <div className="font-[FontSpring] text-2xl font-semibold text-center">Required SGPA Calculator</div>
           <div className="font-[FontSpring] text-base font-normal p-4 ">Calculate required SGPA for achieving a target CGPA.</div>
           <div className="border-t-[1px] border-black my-2"></div>
