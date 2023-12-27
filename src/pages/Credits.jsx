@@ -6,11 +6,11 @@ function Credits() {
   return (
     <div>
         <Navbar/>
-        <div className="p-16 bg-[#f5f5f5]">
+        <div className="md:p-28 py-28 px-8 bg-[#f5f5f5]">
             <div className="font-[IntroScript] text-4xl font-extrabold text-[#05acb4] text-center">
             Credits
             </div>
-            <div className="font-[FontSpring] px-[150px] py-10 font-normal">
+            <div className="font-[FontSpring] md:px-[100px] py-10 font-normal">
                 <p>We would like to acknowledge and express our gratitude to the following individuals, 
                 organizations, and resources that have contributed to the development of "Unitastic."</p>
                 <h3 className="text-2xl font-bold text-[#202222] py-2">Development Frameworks and Libraries:</h3>
