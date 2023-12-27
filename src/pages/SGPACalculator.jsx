@@ -122,8 +122,8 @@ function SGPACalculator() {
   return (
     <div className='bg-[#f5f5f5]'>
       <Navbar/>
-      <div className="flex justify-center items-center">
-        <div className="bg-white border-1 m-44 p-8 max-w-1/2 rounded-lg shadow-lg">
+      <div className="flex flex-nowrap justify-center items-center">
+        <div className="bg-white border-1 my-44 md:mx-44 mx-10 p-8 max-w-1/2 rounded-lg shadow-lg">
         <div className="font-[FontSpring] text-2xl font-semibold text-center">SGPA Calculator</div>
           <div className="font-[FontSpring] text-base font-normal p-4 ">Calculate your SGPA based on credits and expected grade.</div>
           <div className="border-t-[1px] border-black my-2"></div>
@@ -132,7 +132,7 @@ function SGPACalculator() {
           onClick={handleAddClick}>Add Subject</button>
           {subjects.map((subject, i) => {
           return (
-        <div className="flex flex-wrap justify-between my-4 mx-2" key={i}>
+        <div className="flex flex-nowrap justify-between my-4 mx-2" key={i}>
           <div className="font-[FontSpring] text-base font-normal my-2"> 
             <label>Subject {i + 1}</label>
           </div>
